@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D858135232C425E00E845C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D858134232C425E00E845C3 /* main.c */; };
-		6D85813C232C427100E845C3 /* main2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D85813B232C427100E845C3 /* main2.c */; };
+		6D858142232C562F00E845C3 /* guess.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D858141232C562F00E845C3 /* guess.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		6D858131232C425E00E845C3 /* Guess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Guess; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D858134232C425E00E845C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		6D85813B232C427100E845C3 /* main2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main2.c; path = ../../main2.c; sourceTree = "<group>"; };
-		6D85813D232C529800E845C3 /* main2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main2.h; sourceTree = "<group>"; };
+		6D85813D232C529800E845C3 /* guess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guess.h; sourceTree = "<group>"; };
+		6D858141232C562F00E845C3 /* guess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = guess.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 		6D858133232C425E00E845C3 /* Guess */ = {
 			isa = PBXGroup;
 			children = (
-				6D85813B232C427100E845C3 /* main2.c */,
-				6D85813D232C529800E845C3 /* main2.h */,
+				6D85813D232C529800E845C3 /* guess.h */,
 				6D858134232C425E00E845C3 /* main.c */,
+				6D858141232C562F00E845C3 /* guess.c */,
 			);
 			path = Guess;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D858135232C425E00E845C3 /* main.c in Sources */,
-				6D85813C232C427100E845C3 /* main2.c in Sources */,
+				6D858142232C562F00E845C3 /* guess.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

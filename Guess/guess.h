@@ -8,6 +8,8 @@
 
 #ifndef main2_h
 #define main2_h
+#include "stdio.h"
+
 void guess(void);
 
 #endif /* main2_h */
