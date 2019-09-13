@@ -6,13 +6,14 @@
 //  Copyright © 2019 Vanzant-Thomas, Dominick. All rights reserved.
 //
 
+#include <stdio.h>
 
-main()
+void guess()
 {
     int high = 100000;
     int low = 0;
     int guess = 1;
-    int myguess;
+    int myguess=0;
     char reply;
     
     printf("The Game of 20 Questions\n");
