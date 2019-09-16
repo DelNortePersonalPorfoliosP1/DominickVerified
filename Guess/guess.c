@@ -1,4 +1,12 @@
 //
+//  guess.c
+//  Guess
+//
+//  Created by John Mortensen on 9/13/19.
+//  Copyright © 2019 John Mortensen. All rights reserved.
+//
+
+//
 //  main2.c
 //  Lab
 //
@@ -6,13 +14,14 @@
 //  Copyright © 2019 Vanzant-Thomas, Dominick. All rights reserved.
 //
 
+#include "guess.h"
 
-main()
+void guess(void)
 {
     int high = 100000;
     int low = 0;
     int guess = 1;
-    int myguess;
+    int myguess  = 0;
     char reply;
     
     printf("The Game of 20 Questions\n");
@@ -23,7 +32,7 @@ main()
         /* make a guess */
         myguess = (high + low) / 2;
         printf("Guess #%d: Is your number higher than %d? ",
-               guess++, myguess, high, low);
+               guess++, myguess);
         
         /* get your response */
         scanf(" %c",&reply);
