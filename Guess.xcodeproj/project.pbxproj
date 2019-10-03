@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6D858135232C425E00E845C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D858134232C425E00E845C3 /* main.c */; };
 		6D858142232C562F00E845C3 /* guess.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D858141232C562F00E845C3 /* guess.c */; };
+		9EC1536923464A21000EDA86 /* pattern.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1536623464A20000EDA86 /* pattern.c */; };
+		9EC1536A23464A21000EDA86 /* jumpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1536823464A20000EDA86 /* jumpers.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,9 @@
 		6D858134232C425E00E845C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6D85813D232C529800E845C3 /* guess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guess.h; sourceTree = "<group>"; };
 		6D858141232C562F00E845C3 /* guess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = guess.c; sourceTree = "<group>"; };
+		9EC1536623464A20000EDA86 /* pattern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pattern.c; path = "../../p1-starter/portfolio/pattern.c"; sourceTree = "<group>"; };
+		9EC1536723464A20000EDA86 /* portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portfolio.h; path = "../../p1-starter/portfolio/portfolio.h"; sourceTree = "<group>"; };
+		9EC1536823464A20000EDA86 /* jumpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jumpers.c; path = "../../p1-starter/portfolio/jumpers.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				6D85813D232C529800E845C3 /* guess.h */,
+				9EC1536823464A20000EDA86 /* jumpers.c */,
+				9EC1536623464A20000EDA86 /* pattern.c */,
+				9EC1536723464A20000EDA86 /* portfolio.h */,
 				6D858134232C425E00E845C3 /* main.c */,
 				6D858141232C562F00E845C3 /* guess.c */,
 			);
@@ -123,8 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC1536A23464A21000EDA86 /* jumpers.c in Sources */,
 				6D858135232C425E00E845C3 /* main.c in Sources */,
 				6D858142232C562F00E845C3 /* guess.c in Sources */,
+				9EC1536923464A21000EDA86 /* pattern.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
