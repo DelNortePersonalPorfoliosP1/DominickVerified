@@ -11,4 +11,5 @@
 #include <stdio.h>
 int jumpers(char *message);
 int pattern(void);
+int Histo(void);
 #endif /* portfolio_h */

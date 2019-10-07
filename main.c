@@ -28,7 +28,7 @@ int main(int argc, const char * argv[]) {
         printf("|Options:                   Run Status:| %d of %d\n", menuRun[0], menuItems);
         printf("|  1. Jumpers                          | %s\n", (menuRun[1] ? runMsg2D[1] : notRun) );
         printf("|  2. Pythagorean Theorem              | %s\n", (menuRun[2] ? runMsg2D[2] : notRun) );
-        printf("|  3. Data Types and IO                | \n");
+        printf("|  3. Histo                            | \n");
         printf("|  4. Rectangle Area & Perm.           | \n");
         printf("|  5. Temperature Converter            | \n");
         printf("|  6. Seconds Calculator               | \n");
@@ -62,7 +62,7 @@ int main(int argc, const char * argv[]) {
                     menuRun[input] = 1;
                     break;
                 case 3:
-                    //datatypes();
+                    Histo();
                     break;
                 case 4:
                     //rectanglelab();

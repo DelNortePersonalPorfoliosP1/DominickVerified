@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D858135232C425E00E845C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D858134232C425E00E845C3 /* main.c */; };
 		6D858142232C562F00E845C3 /* guess.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D858141232C562F00E845C3 /* guess.c */; };
+		9E66CB92234B9736008A27F7 /* Histo.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E66CB91234B9736008A27F7 /* Histo.c */; };
 		9EE211312347A30200A33714 /* pattern.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EE211302347A30200A33714 /* pattern.c */; };
 		9EE211332347A3A800A33714 /* jumpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EE211322347A3A800A33714 /* jumpers.c */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		6D858134232C425E00E845C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6D85813D232C529800E845C3 /* guess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guess.h; sourceTree = "<group>"; };
 		6D858141232C562F00E845C3 /* guess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = guess.c; sourceTree = "<group>"; };
+		9E66CB91234B9736008A27F7 /* Histo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Histo.c; sourceTree = "<group>"; };
 		9EE2112F2347A30200A33714 /* portfolio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = portfolio.h; sourceTree = "<group>"; };
 		9EE211302347A30200A33714 /* pattern.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pattern.c; sourceTree = "<group>"; };
 		9EE211322347A3A800A33714 /* jumpers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jumpers.c; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		6D858128232C425E00E845C3 = {
 			isa = PBXGroup;
 			children = (
+				6D858134232C425E00E845C3 /* main.c */,
 				6D858133232C425E00E845C3 /* Guess */,
 				6D858132232C425E00E845C3 /* Products */,
 			);
@@ -67,8 +70,8 @@
 			children = (
 				9EE2112F2347A30200A33714 /* portfolio.h */,
 				6D858141232C562F00E845C3 /* guess.c */,
+				9E66CB91234B9736008A27F7 /* Histo.c */,
 				6D85813D232C529800E845C3 /* guess.h */,
-				6D858134232C425E00E845C3 /* main.c */,
 				9EE211302347A30200A33714 /* pattern.c */,
 				9EE211322347A3A800A33714 /* jumpers.c */,
 			);
@@ -135,6 +138,7 @@
 				9EE211312347A30200A33714 /* pattern.c in Sources */,
 				6D858135232C425E00E845C3 /* main.c in Sources */,
 				6D858142232C562F00E845C3 /* guess.c in Sources */,
+				9E66CB92234B9736008A27F7 /* Histo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
